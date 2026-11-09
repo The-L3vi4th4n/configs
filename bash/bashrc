@@ -13,4 +13,13 @@ PS1='[\u@\h \W]\$ '
 export PATH="$PATH:/home/CharredLeviathan/.local/bin"
 
 alias mpvs='mpv ~/music --shuffle --no-video'
+
 alias wscrshot='grim -g "$(slurp)" ~/temp.png'
+
+alias updman='sudo pacman -Syu'
+alias updfman='sudo pacman -Syyu'
+alias rmaman='sudo pacman -Rs'
+alias rmoman='sudo pacman -Rns $(pacman -Qtdq)' # give the error of no target specified if like there are no orphans which means that you don't have to do anything and is expected
+
+alias gitstats='git log --oneline --stat --graph --decorate'
+alias gitdcached='git diff --cached'
