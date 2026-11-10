@@ -15,6 +15,7 @@ export PATH="$PATH:/home/CharredLeviathan/.local/bin"
 alias mpvs='mpv ~/music --shuffle --no-video'
 
 alias wscrshot='grim -g "$(slurp)" ~/temp.png'
+alias xscrshot='maim --select | xclip -selection clipboard -target image/png ~/temp.png'
 
 alias updman='sudo pacman -Syu'
 alias updfman='sudo pacman -Syyu'
