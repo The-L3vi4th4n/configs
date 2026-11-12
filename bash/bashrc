@@ -14,6 +14,8 @@ export PATH="$PATH:/home/CharredLeviathan/.local/bin"
 
 alias mpvs='mpv ~/music --shuffle --no-video'
 
+alias ddgo='lynx duckduckgo.com'
+
 alias wscrshot='grim -g "$(slurp)" ~/temp.png'
 alias xscrshot='maim --select | tee ~/temp.png | xclip -selection clipboard -target image/png'
 
