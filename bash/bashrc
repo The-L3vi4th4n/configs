@@ -21,7 +21,7 @@ alias xscrshot='maim --select | tee ~/temp.png | xclip -selection clipboard -tar
 
 alias updman='sudo pacman -Syu'
 alias updfman='sudo pacman -Syyu'
-alias rmaman='sudo pacman -Rs'
+alias rmaman='sudo pacman -Rns'
 alias rmoman='sudo pacman -Rns $(pacman -Qtdq)' # give the error of no target specified if like there are no orphans which means that you don't have to do anything and is expected
 
 alias gitstats='git log --oneline --stat --graph --decorate'
