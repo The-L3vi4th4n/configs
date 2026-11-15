@@ -23,6 +23,9 @@ alias updman='sudo pacman -Syu'
 alias updfman='sudo pacman -Syyu'
 alias rmaman='sudo pacman -Rns'
 alias rmoman='sudo pacman -Rns $(pacman -Qtdq)' # give the error of no target specified if like there are no orphans which means that you don't have to do anything and is expected
+alias lsaman='pacman -Q'
+alias lseman='pacman -Qe'
+alias lsuman='pacman -Qent'
 
 alias gitstats='git log --oneline --stat --graph --decorate'
 alias gitdcached='git diff --cached'
