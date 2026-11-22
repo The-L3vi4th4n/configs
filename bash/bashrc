@@ -29,3 +29,7 @@ alias lsuman='pacman -Qent'
 
 alias gitstats='git log --oneline --stat --graph --decorate'
 alias gitdcached='git diff --cached'
+
+treesz(){
+	tree $1 | tail -1
+}
